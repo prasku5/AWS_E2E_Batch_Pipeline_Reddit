@@ -4,6 +4,7 @@
 # Docker will pull the image from the DockerHub repository and install the required Python packages.
 FROM apache/airflow:2.7.1-python3.9 
 
+ENV PYTHONPATH="${PYTHONPATH}:/opt/airflow/pipelines"
 # Copy the requirements.txt file from the image pulled to the /opt/airflow/ directory
 COPY requirements.txt /opt/airflow/
 # Switch to the root user and install the required packages using apt-get
