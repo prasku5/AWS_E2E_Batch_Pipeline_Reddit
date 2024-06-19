@@ -1,4 +1,7 @@
+![Alt text](Reddit_app_api.png)
+![Alt text](Airflow_etl_pipeline.png)
+![Alt text](Airflow_job_success.png)
+![Alt text](Glue_crawler_success.png)
+![Alt text](Redshift_table_results.png)
 ![Alt text](S3_File.png)
-
-
 ![Alt text](Csv_Contents.png)
