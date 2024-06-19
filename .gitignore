@@ -1,7 +1,12 @@
 # Ignore environment variables file
 .env
 config/config.conf
-reddit_data_engineering/
+*.env
+# example of a specific config file to exclude
+config/secrets.cfg  
+
+#Virual environment folder
+reddit_data_engineering/ 
 
 # Node.js
 node_modules/
@@ -32,14 +37,10 @@ airflow-webserver.pid
 
 # Ignore specific Airflow directories and files
 config/
-dags/
-plugins/
+# If config files contain sensitive information, consider excluding specific files
+!config/*.conf  
 data/
-etls/
-pipelines/
-tests/
-utils/
-airflow.cfg
+
 
 # Python environment and dependency files
 .env
