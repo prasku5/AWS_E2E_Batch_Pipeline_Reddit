@@ -1,0 +1,26 @@
+
+Installing the virtual environemnt:
+============================================
+python3 -m venv reddit_data_engineering
+source reddit_data_engineering/bin/activate
+
+Once the virtual environement is activate we can run below 
+
+pip install apache-airflow pandas numpy praw
+
+we will create additional folder for project
+============================================
+mkdir config dags data etls logs pipelines tests utils
+
+touch airflow.env docker-compose.yml Dockerfile
+
+This command lists all the installed packages in the current Python environment and their versions. 
+==================================================================================================
+pip freeze > requirements.txt  
+
+docker compose -d --build (If not working then official document for airflow installation in linux/mac)
+
+
+
+
+

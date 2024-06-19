@@ -1,0 +1,53 @@
+# Ignore environment variables file
+.env
+config/config.conf
+reddit_data_engineering/
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+logs/
+*.log
+
+# Virtual environments
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Other files to ignore
+*.swp
+
+# Ignore Airflow logs and temporary files
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Ignore specific Airflow directories and files
+config/
+dags/
+plugins/
+data/
+etls/
+pipelines/
+tests/
+utils/
+airflow.cfg
+
+# Python environment and dependency files
+.env
+.venv/
+env/
+venv/
+ENV/
+.Python
+
+# C extensions
+*.so
