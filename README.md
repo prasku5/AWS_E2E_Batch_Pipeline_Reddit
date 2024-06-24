@@ -96,3 +96,5 @@
   - Use Redshift query editor’s charting tools to create visualizations.
 - **Data Analysis**:
   - Perform analysis and create various charts based on the data.
+
+Credits to Yusuf Ganiyu( https://github.com/airscholar ) for his contribution to make this project possible.
